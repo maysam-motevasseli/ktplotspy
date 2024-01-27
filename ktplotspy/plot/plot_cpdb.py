@@ -237,7 +237,7 @@ def plot_cpdb(
         for s in metadata[splitby_key].cat.categories:
             for c in metadata[celltype_key].cat.categories:
                 cat_orders.append(s + "_" + c)
-        cat_orders = [x for x in cat_orders if x in list(metadata._labels)]
+        # cat_orders = [x for x in cat_orders if x in list(metadata._labels)]
         cat_orders = ['mut_AC-like', 'mut_OC-like', 'mut_Stem-like', 'mut_BDM', 'mut_MG-TAM', 'wt_AC-like', 'wt_MES-like', 'wt_NPC-like', 'wt_OPC-like', 'wt_BDM', 'wt_MG-TAM']
         metadata["_labels"] = metadata["_labels"].cat.reorder_categories(cat_orders)
         celltype = prep_celltype_query(
