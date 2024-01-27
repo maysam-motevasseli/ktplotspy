@@ -409,8 +409,8 @@ def plot_cpdb(
                     g = ggplot(
                         df,
                         aes(
-                            x="celltype_group",
-                            y="interaction_group",
+                            y="celltype_group",
+                            x="interaction_group",
                             colour="significant",
                             fill=colm,
                             size=colm,
@@ -423,8 +423,8 @@ def plot_cpdb(
                         g = ggplot(
                             df,
                             aes(
-                                x="celltype_group",
-                                y="interaction_group",
+                                y="celltype_group",
+                                x="interaction_group",
                                 colour="significant",
                                 fill=colm,
                                 size=colm,
@@ -438,8 +438,8 @@ def plot_cpdb(
                         g = ggplot(
                             df,
                             aes(
-                                x="celltype_group",
-                                y="interaction_group",
+                                y="celltype_group",
+                                x="interaction_group",
                                 colour=colm,
                                 fill="significant",
                                 size=colm,
@@ -458,8 +458,8 @@ def plot_cpdb(
                         g = ggplot(
                             df,
                             aes(
-                                x="celltype_group",
-                                y="interaction_group",
+                                y="celltype_group",
+                                x="interaction_group",
                                 colour="significant",
                                 fill=colm,
                                 size=colm,
@@ -472,8 +472,8 @@ def plot_cpdb(
                             g = ggplot(
                                 df,
                                 aes(
-                                    x="celltype_group",
-                                    y="interaction_group",
+                                    y="celltype_group",
+                                    x="interaction_group",
                                     colour="significant",
                                     fill=colm,
                                     size=colm,
@@ -487,8 +487,8 @@ def plot_cpdb(
                             g = ggplot(
                                 df,
                                 aes(
-                                    x="celltype_group",
-                                    y="interaction_group",
+                                    y="celltype_group",
+                                    x="interaction_group",
                                     colour=colm,
                                     fill="significant",
                                     size=colm,
@@ -519,8 +519,8 @@ def plot_cpdb(
                     g = ggplot(
                         df,
                         aes(
-                            x="celltype_group",
-                            y="interaction_group",
+                            y="celltype_group",
+                            x="interaction_group",
                             colour="significant",
                             fill=colm,
                             size=colm,
@@ -533,8 +533,8 @@ def plot_cpdb(
                     g = ggplot(
                         df,
                         aes(
-                            x="celltype_group",
-                            y="interaction_group",
+                            y="celltype_group",
+                            x="interaction_group",
                             colour=colm,
                             fill="significant",
                             size=colm,
