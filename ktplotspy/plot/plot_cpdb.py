@@ -506,8 +506,8 @@ def plot_cpdb(
                 g = ggplot(
                     df,
                     aes(
-                        x="celltype_group",
-                        y="interaction_group",
+                        x="interaction_group",
+                        y="celltype_group",
                         colour="significant",
                         fill=colm,
                         size=colm,
@@ -599,7 +599,7 @@ def plot_cpdb(
                 df2.at[i, colm] = np.nan
         g = (
             g
-            + geom_point(aes(x="celltype_group", y="interaction_group", colour=colm, size=colm), df2, inherit_aes=False, na_rm=True)
+            + geom_point(aes(x="interaction_group", y="celltype_group", colour=colm, size=colm), df2, inherit_aes=False, na_rm=True)
             + scale_colour_continuous(cmap_name=cmap_name)
         )
     if highlight_size is not None:
